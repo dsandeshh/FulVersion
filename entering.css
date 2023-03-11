@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: 'poppins',sans-serif;
+}
+#menu {  
+  position: absolute;
+  top:65px;
+  left: 900px;
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  align-items: center;
+
+}
+#menu-items {
+  z-index: 2;
+}
+ 
+#menu-items:hover > .menu-item {
+  opacity: 0.3;
+}
+#menu-items:hover > .menu-item:hover {
+  opacity: 1; 
+}
+.menu-item {
+  color:white;
+  cursor: pointer;
+  font-family:arial;
+  font-size:30px;
+  padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+  text-decoration: none;
+  transition: opacity 400ms ease;
+
+}
+
+a{
+  animation: float 3s ease-in-out infinite;
+  text-decoration: none;
+  /* background-color:beige; */
+  border-radius: 12px;
+  animation: animate 5s linear infinite;
+  animation: float 3s ease-in-out infinite;
+  
+}
+
+
+
+
+@keyframes animate
+{
+  0%,18%,20%,50%,80%,90%,92%
+  {
+    color:black;
+    text-shadow:none;
+
+  }
+  0%,18%,20%,50%,80%,90%,92%
+
+  {
+    /* color:white; */
+    /* text-shadow: 0 0 10px #03bcf4, */
+    /* 0 0 20px #03bcf4, */
+    /* 0 0 70px #03bcf4; */
+
+  }
+}
+
+

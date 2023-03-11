@@ -1,0 +1,55 @@
+.button{
+	background-color: green;
+	border: none;
+	color: white;
+	display: block;
+	padding: 15px 32px;
+	font-size: 16px;
+	width: 80%;
+	margin: 20px 20px;
+	text-decoration: none;
+	text-align: center;
+
+}
+.part{
+	width: 600px;
+	height: 400px;
+	margin: 200px auto;
+
+
+
+}
+
+.container{
+	width: 60%;
+	margin:0 auto;
+	overflow: auto;
+	text-align: center;
+	border: solid black;
+	/*font-size: 35px;
+	padding-top: 50px;
+	*/
+}
+.head{
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 3px;
+	border: solid black;
+	background-color:blueviolet;
+}
+label{
+	width: 100%;
+	display: inline-block;
+	font-size: 30px;
+}
+input{
+	font-size: 30px;
+	width: 400px;
+	border-radius: 3px;
+}
+main{
+	text-align: center;	
+	
+
+
+}
